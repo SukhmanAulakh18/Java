@@ -1,0 +1,10 @@
+# .gitignore
+
+# Ignore Visual Studio Code settings
+**/.vscode/
+
+# Ignore compiled binary files
+**/bin/
+
+# Ignore library files
+**/lib/
