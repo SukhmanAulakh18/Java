@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class VarArgs {
     public static void main(String[] args) {
         fun(2,4,5,5,423,532);
-        multiple(10, 20, "Balwinder Singh", "Parmjeet Kaur", "Yashman Singh", "Sukhmanpreet Singh");
+        multiple(10, 20, "NDA", "IMA", "OTA", "AFMC");
     }
 
     static void fun(int ...v){
