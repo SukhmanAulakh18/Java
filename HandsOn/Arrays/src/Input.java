@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Input {
@@ -12,6 +13,8 @@ public class Input {
         arr[4]=20;
 
         System.out.println(arr[3]);
+        //Another way to print is using the Arrays.toString() in which it will print it like String of arrays with brackets and the square brackets
+        System.out.println(Arrays.toString(arr));
 
         //Using the for loop to enter the data till the length of the array
         for (int i = 0; i < arr.length; i++) {
