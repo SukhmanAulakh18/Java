@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Input {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //for primitives
         //entering the data directly writing the indexes of the array
         int[] arr = new int[5];
         arr[0]=9;
@@ -30,6 +31,13 @@ public class Input {
         for (int num : arr) {
             System.out.print(num);  //it represents the element of the array like arr[0],arr[1]...so on
         }
+        //Array of Objects
+        String[] str = new String[5];
+
+        for (int i = 0; i < str.length; i++) {
+            str[i]=sc.next();
+        }
+        System.out.println(Arrays.toString(str));
     sc.close();
     }
 }
