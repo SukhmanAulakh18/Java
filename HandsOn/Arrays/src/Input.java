@@ -24,12 +24,12 @@ public class Input {
 
         //same for the output
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
+            System.out.print(arr[i]+" ");
 
         //for every num in the arr it will print the num it is arr[num]
         }
         for (int num : arr) {
-            System.out.print(num);  //it represents the element of the array like arr[0],arr[1]...so on
+            System.out.print(num+" ");  //it represents the element of the array like arr[0],arr[1]...so on
         }
         //Array of Objects
         String[] str = new String[5];
@@ -37,6 +37,8 @@ public class Input {
         for (int i = 0; i < str.length; i++) {
             str[i]=sc.next();
         }
+        //modify
+        str[1]="Array";
         System.out.println(Arrays.toString(str));
     sc.close();
     }
